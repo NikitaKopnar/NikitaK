@@ -5,20 +5,16 @@ const skills =[
     {name:"HTML/CSS", level:95, category:"frontend"},
      {name:"Javascript", level:85, category:"frontend"},
       {name:"Angular", level:75, category:"frontend"},
-       {name:"React", level:50, category:"frontend"},
+       {name:"React", level:70, category:"frontend"},
 
          //backend
-         {name:"HTML/CSS", level:95, category:"backend"},
-          {name:"HTML/CSS", level:95, category:"backend"},
-           {name:"HTML/CSS", level:95, category:"backend"},
-            {name:"HTML/CSS", level:95, category:"backend"},
-             {name:"HTML/CSS", level:95, category:"backend"},
+         {name:"Basics of Java", level:65, category:"backend"},
+          {name:"MYSQL", level:60, category:"backend"},
 
              //Tools
-             {name:"Git/GitHub", level:95, category:"tools"},
-             {name:"Docker", level:95, category:"tools"},
-             {name:"Figma", level:95, category:"tools"},
+             {name:"Git/GitHub", level:80, category:"tools"},
              {name:"VS Code", level:95, category:"tools"},
+             {name:"JIRA", level:95, category:"tools"},
 ];
 const categories = ["all", "frontend", "backend", "tools"];
 export const SkillsSection =()=>{
