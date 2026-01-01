@@ -59,13 +59,17 @@ export const AboutSection = ()=>{
                             <h4 className="font-semibold text-lg">Software developer at HCLTech</h4>
                             <p className="text-muted-foreground">As a Software Developer at HCLTech, contributed to enterprise financial software project</p>
                         </div>
+                    </div>
+                </div>
+                <div className="gradient-border p-6 card-hover">
+                    <div className="flex items-start gap-4">
                         <div className="p-3 rounded-full bg-primary/10">
                         <Briefcase className="h-6 text-primary"/>
-                        </div>
+                         </div>
                         <div className="text-left">
-                            <h4 className="font-semibold text-lg">Sr. Software development analyst at Accenture</h4>
+                           <h4 className="font-semibold text-lg">Sr. Software development analyst at Accenture</h4>
                             <p className="text-muted-foreground">As a Sr. Software development analyst at Accenture, contributing to develop commercial web application</p>
-                        </div>
+                        </div> 
                     </div>
                 </div>
             </div>
@@ -73,3 +77,5 @@ export const AboutSection = ()=>{
         </div>
     </section>
 }
+
+ 
