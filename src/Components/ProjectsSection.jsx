@@ -16,7 +16,7 @@ const projects = [
     title: "Portfolio Development in HTML and CSS",
     description:
       "An elegant and minimal portfolio to highlight my frontend work. Includes projects, skills, and resume for easy access.",
-    image: "/projects/portfolio.jpg",
+    image: "/projects/portfolio_latest_img.jpeg",
     tags: ["HTML", "JavaScript", "CSS3"],
     demoUrl: "https://portfolio-mu-six-48.vercel.app/",
     githubUrl: "https://github.com/NikitaKopnar/portfolio",
