@@ -3,7 +3,7 @@ import { StarBackground } from "../Components/StarBackground"
 import { Navbar } from "../Components/Navbar"
 import { HeroSection } from "../Components/HeroSection"
 import { AboutSection } from "../Components/AboutSection"
-import { SkillsSection } from "../Components/SkillsSection"
+//import { SkillsSection } from "../Components/SkillsSection"
 import { ProjectSection } from "../Components/ProjectsSection"
 import { ContactSection } from "../Components/ContactSection"
 import { FooterSection } from "../Components/FooterSection"
@@ -19,7 +19,7 @@ export const Home = ()=>{
         <main>
             <HeroSection/>
             <AboutSection/>
-            <SkillsSection/>
+            {/* <SkillsSection/> */}
             <ProjectSection/>
             <ContactSection/>
         </main>

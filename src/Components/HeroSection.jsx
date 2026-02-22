@@ -6,16 +6,15 @@ export const HeroSection = ()=>{
     <div className="container max-w-4xl mx-auto text-center z-10">
         <div className="space-y-6">
             <h1 className="text-4xl md:text-6xl font-bold tracking-tight">
-                <span className="opacity-0 animate-fade-in">Hi, I'm </span>
-                <span className="text-primary opacity-0 animate-fade-in-delay-1 ">Nikita </span>
-                <span className="text-gradient ml-2 opacity-0 animate-fade-in-delay-2 ">kopnar </span>
+                <span className="text-primary opacity-0 animate-fade-in-delay-1">Drishani constructions</span>
+                <span className="text-gradient ml-2 opacity-0 animate-fade-in-delay-2 "> and Builders</span>
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-               Front-end developer with 5+ years of experience in building scalable, High performance, elegant web experiences with Angular, React and modern Javascript
+               We build strong foundations for a better tomorrow, guiding you to own your dream land, invest with confidence, and create a future that stands the test of time.
             </p>
             <div className="pt-4 opacity-0 animate-fade-in-delay-4">
-                <a href="#Projects" className="cosmic-button">
-                    View My work
+                <a href="#Developments" className="cosmic-button">
+                    Explore Developments
                 </a>
             </div>
         </div>

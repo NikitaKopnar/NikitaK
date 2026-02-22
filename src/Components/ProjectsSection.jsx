@@ -2,34 +2,30 @@ import { ExternalLink, Github, ArrowRight } from "lucide-react";
 
 const projects = [
   {
-    id: 1,
-    title: "Tic-Tac-Toe Game Development",
-    description:
-      "Developed a web-based Tic-Tac-Toe game with interactive UI, turn-based logic, and win/draw detection using JavaScript and React.",
-    image: "/projects/tic-tac-toe.jpg",
-    tags: ["React", "JavaScript", "CSS"],
-    demoUrl: "https://tic-tac-toe-react-project-wine.vercel.app/",
-    githubUrl: "https://github.com/NikitaKopnar/tic-tac-toe-react-project",
-  },
-  {
-    id: 2,
-    title: "Portfolio Development in HTML and CSS",
-    description:
-      "An elegant and minimal portfolio to highlight my frontend work. Includes projects, skills, and resume for easy access.",
-    image: "/projects/portfolio.jpg",
-    tags: ["HTML", "JavaScript", "CSS3"],
-    demoUrl: "https://portfolio-mu-six-48.vercel.app/",
-    githubUrl: "https://github.com/NikitaKopnar/portfolio",
-  },
+  id: 1,
+  title: "Residential Construction Services",
+  description:
+    "Delivered high-quality residential construction projects including independent homes and villas, ensuring structural strength, modern design, and timely completion.",
+  image: "/projects/residential-construction.jpg",
+  tags: ["Construction", "Quality Build", "Project Execution"],
+},
+{
+  id: 2,
+  title: "Land Development & Layout Planning",
+  description:
+    "Planned and developed well-structured residential layouts with proper infrastructure, legal approvals, and long-term investment value.",
+  image: "/projects/land-development.jpg",
+  tags: ["Land Development", "Layout Planning", "Real Estate"],
+},
 ];
 
 export const ProjectSection = () => {
   return (
-    <section id="Projects" className="py-24 px-4 relative">
+    <section id="Developments" className="py-24 px-4 relative">
       <div className="container mx-auto max-w-5xl">
         {/* Section Header */}
         <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">
-          Featured <span className="text-primary">Projects</span>
+          Highlighted <span className="text-primary">Developments</span>
         </h2>
         <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
           Here are some of my recent projects. Each project was carefully
@@ -73,7 +69,7 @@ export const ProjectSection = () => {
                 </p>
 
                 {/* Links */}
-                <div className="flex justify-between items-center">
+                {/* <div className="flex justify-between items-center">
                   <div className="flex space-x-3">
                     <a
                       href={project.demoUrl}
@@ -92,14 +88,14 @@ export const ProjectSection = () => {
                       <Github size={20} />
                     </a>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           ))}
         </div>
 
         {/* Github Button */}
-        <div className="text-center mt-12">
+        {/* <div className="text-center mt-12">
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             target="_blank"
@@ -108,7 +104,7 @@ export const ProjectSection = () => {
           >
             Check My Github <ArrowRight size={16} />
           </a>
-        </div>
+        </div> */}
       </div>
     </section>
   );
