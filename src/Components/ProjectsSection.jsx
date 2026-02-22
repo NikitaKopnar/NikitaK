@@ -2,6 +2,7 @@ import { ExternalLink, Github, ArrowRight } from "lucide-react";
 
 const projects = [
   {
+<<<<<<< HEAD
   id: 1,
   title: "Residential Construction Services",
   description:
@@ -17,6 +18,27 @@ const projects = [
   image: "/projects/land-development.jpg",
   tags: ["Land Development", "Layout Planning", "Real Estate"],
 },
+=======
+    id: 1,
+    title: "Tic-Tac-Toe Game Development",
+    description:
+      "Developed a web-based Tic-Tac-Toe game with interactive UI, turn-based logic, and win/draw detection using JavaScript and React.",
+    image: "/projects/tic-tac-toe.jpg",
+    tags: ["React", "JavaScript", "CSS"],
+    demoUrl: "https://tic-tac-toe-react-project-wine.vercel.app/",
+    githubUrl: "https://github.com/NikitaKopnar/tic-tac-toe-react-project",
+  },
+  {
+    id: 2,
+    title: "Portfolio Development in HTML and CSS",
+    description:
+      "An elegant and minimal portfolio to highlight my frontend work. Includes projects, skills, and resume for easy access.",
+    image: "/projects/portfolio_latest_img.jpeg",
+    tags: ["HTML", "JavaScript", "CSS3"],
+    demoUrl: "https://portfolio-mu-six-48.vercel.app/",
+    githubUrl: "https://github.com/NikitaKopnar/portfolio",
+  },
+>>>>>>> 16d600ef865ed8171b61c5e4d547207f9d34f536
 ];
 
 export const ProjectSection = () => {
@@ -39,12 +61,15 @@ export const ProjectSection = () => {
               key={project.id}
               className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover"
             >
-              {/* Project Image */}
-              <div className="h-48 overflow-hidden">
+              {/* Project Image - use aspectRatio so images are not cropped */}
+              <div
+                className="w-full overflow-hidden bg-muted"
+                style={{ aspectRatio: "16/9" }}
+              >
                 <img
                   src={project.image}
                   alt={project.title}
-                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                  className="w-full h-full object-contain object-center transition-transform duration-500 group-hover:scale-105"
                 />
               </div>
 
